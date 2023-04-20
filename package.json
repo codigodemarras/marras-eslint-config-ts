@@ -6,9 +6,37 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Best practices",
+    "Code editor",
+    "Code formatting",
+    "Code quality",
+    "Code style",
+    "Coding guidelines",
+    "ECMAScript",
+    "eslint-rules",
+    "eslint-ts",
+    "eslint",
+    "JavaScript",
+    "JSX",
+    "Linter",
+    "prettier",
+    "React",
+    "Transpiling",
+    "TSX",
+    "Type checking",
+    "Typescript"
+  ],
   "author": "Marras",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codigodemarras/marras-eslint-config-ts.git"
+  },
+  "homepage": "https://github.com/codigodemarras/marras-eslint-config-ts#readme",
+  "bugs": {
+    "url": "https://github.com/codigodemarras/marras-eslint-config-ts/issues"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
