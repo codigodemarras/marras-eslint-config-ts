@@ -1,20 +1,18 @@
-## Marras Eslint Configuration
+## Marras Eslint TS Configuration
 
-This is a custom eslint configuration for projects with typescript and React created with my personal rules.
+This is a custom ESLint configuration for projects using Typescript and React.<br />
+It was created using my personal rules.
 
 ### Redes / Networks
 
 <div id="badges">
-  <a href="http://twitch.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=FFFFFF" alt="Website Badge"/>
+  <a href="https://walterradduso.dev/" target="_blanck">
+    <img src="https://img.shields.io/badge/website-8a0606?style=for-the-badge&logo=About.me&logoColor=FFFFFF" alt="Website Badge"/>
   </a>
-  <a href="http://twitter.codigodemarras.com/" target="_blanck">
+  <a href="https://linkedin.walterradduso.com/" target="_blanck">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://twitter.com/walterradduso" target="_blanck">
     <img src="https://img.shields.io/badge/twitter-00acee?style=for-the-badge&logo=twitter&logoColor=FFFFFF" alt="Website Badge"/>
-  </a>
-  <a href="http://youtube.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/youtube-c4302b?style=for-the-badge&logo=youtube&logoColor=FFFFFF" alt="Website Badge"/>
-  </a>
-  <a href="http://discord.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/discord-36393e?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Website Badge"/>
   </a>
 </div>
