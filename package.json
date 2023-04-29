@@ -1,7 +1,7 @@
 {
   "name": "marras-eslint-config-ts",
   "version": "0.0.2",
-  "description": "custom ESLint configuration for projects using Typescript and React",
+  "description": "Custom ESLint configuration for projects using Typescript and React",
   "main": "index.js",
   "private": false,
   "scripts": {
