@@ -5,6 +5,10 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: './tsconfig.json',
+  },
+  env: {
+    jest: true,
   },
   plugins: ['@typescript-eslint', 'import', 'prettier', 'react', 'react-hooks'],
   rules: {
@@ -56,14 +60,9 @@ module.exports = {
       },
     ],
     'import/order': [
-      'warn',
+      'error',
       {
-        allowSeparatedGroups: true,
         groups: ['builtin', 'external', 'index', 'internal', 'object', 'parent', 'sibling', 'type'],
-        ignoreCase: true,
-        ignoreDeclarationSort: true,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['all', 'single', 'multiple', 'none'],
         'newlines-between': 'always',
         pathGroups: [
           {
@@ -72,6 +71,10 @@ module.exports = {
             position: 'after',
           },
         ],
+        alphabetize: {
+          order: 'ignore',
+          caseInsensitive: true,
+        },
       },
     ],
     'react/jsx-sort-props': [
