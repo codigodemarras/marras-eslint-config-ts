@@ -1,11 +1,9 @@
 module.exports = {
-  root: true,
   extends: ['airbnb-typescript/base', 'eslint:recommended', 'next/core-web-vitals', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: './tsconfig.json',
   },
   env: {
     jest: true,
